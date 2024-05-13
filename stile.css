@@ -1,0 +1,163 @@
+/* .img-initial::before {
+  background-image: url(assets/netflix-intro-netflix.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  position: absolute;
+  z-index: 0;
+  top: 0%;
+  right: 0;
+  left: 0;
+
+  animation: fade-out 1s ease-in-out 1s forwards;
+} */
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.zindex {
+  z-index: 1;
+}
+
+body {
+  background-color: rgba(0, 0, 0);
+  margin: 0;
+  padding: 0;
+}
+@keyframes initial-img {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+.icon-bg {
+  background-color: black;
+}
+.navbar {
+  background-color: #000000e6;
+}
+.genres {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  height: fit-content;
+  padding: auto;
+}
+.columnsGap {
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 1px solid;
+  border-color: white;
+  padding: auto;
+  height: fit-content;
+  z-index: 1;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.carousel-control-prev {
+  width: 25px;
+}
+.carousel-control-next {
+  width: 25px;
+}
+.carousel-inner {
+  overflow: visible;
+}
+.card {
+  width: 100%;
+  z-index: 0;
+  padding: 2 2px;
+  transition: transform 500ms ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.09);
+  z-index: 2;
+  padding: 2 2px;
+  position: relative;
+}
+
+@media screen and (max-width: 980px) {
+  .nascondi {
+    overflow-x: hidden;
+  }
+}
+.carousel-control-next {
+  transform: translateX(50%);
+  top: 45%;
+  opacity: 0.1;
+  width: 25px;
+  height: 25px;
+}
+.carousel-control-prev {
+  transform: translateX(-50%);
+  top: 45%;
+  width: 25px;
+  height: 25px;
+  opacity: 0.1;
+  padding-right: 5px;
+}
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+  opacity: 0.8;
+  background-color: black;
+  border-radius: 50%;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0.3;
+  }
+  70% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.carousel1 {
+  animation: fade-in 0.9s ease-in-out 0.7s backwards;
+}
+.carousel2 {
+  animation: fade-in 0.9s ease-in-out 0.7s backwards;
+}
+.carousel3 {
+  animation: fade-in 0.9s ease-in-out 0.7s backwards;
+}
+.carousel4 {
+  animation: fade-in 0.9s ease-in-out 0.7s backwards;
+}
+
+.carousel5 {
+  animation: fade-in 0.9s ease-in-out 0.7s backwards;
+}
+.dropdown-menu > .dropdown-item {
+  color: aliceblue;
+  background-color: black;
+  border-color: black;
+}
+.dropdown-menu {
+  padding: 0%;
+}

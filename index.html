@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="stile.css">
+  <title>Netflix</title>
+</head>
+
+<body class="img-initial">
+
+  <nav class="navbar carousel1 navbar-expand-md navbar-dark rounded p-0  sticky-top">
+    <a class="navbar-brand " href="#"><img src="assets/imgs/Netflix_Logo_RGB.png" height="50px" alt=""></a>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tv show</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Movies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Recently Added</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">My List</a>
+        </li>
+      </ul>
+    </div>
+    <div class="d-flex">
+      <span class="text-light active-user align-items-center p-1 mr-1 d-flex">Kido</span>
+      <button class="icon-bg p-0 border-0">
+        <img src="assets/imgs/icons8-bell-24.png" alt="">
+      </button>
+      <li class="nav-item nav dropdown ">
+        <a class="nav-link dropdown-toggle text-light" href="" role="button" data-toggle="dropdown"
+          aria-expanded="false">
+          <img src="assets/imgs/icon.png" class="ml-1" height="25px" alt="">
+        </a>
+        <div class="dropdown-menu dropdown-menu-sm-right">
+          <a class="dropdown-item utente1" href="#"><span>Mamma</span> <img src="assets/imgs/icon.png" height="40px"
+              alt=""></a>
+          <a class="dropdown-item utente2" href="#">Barba Papa</a>
+          <a class="dropdown-item utente3" href="#">Kido</a>
+        </div>
+      </li>
+      <button class="navbar-toggler order-2" type="button" data-toggle="collapse" data-display="static"
+        data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+  <div class="container-fluid carousel1 d-flex justify-content-between  mt-3">
+    <div class="d-flex ml-3">
+      <div class="zindex">
+        <h2 class="d-flex text-light font-weight-bold">Tv show</h2>
+      </div>
+      <div class="ml-3">
+        <div class="dropdown">
+          <button class="btn border rounded-1 dropdown-toggle text-light" type="button" data-toggle="dropdown"
+            aria-expanded="false">
+            Genres
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#carouselExampleControlsAgain1">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex">
+
+      <button class="columnsGap mr-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" fill="white" class="bi bi-text-left"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M2 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
+        </svg>
+      </button>
+      <button class="columnsGap mr-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" fill="white" class="bi bi-columns-gap p-1"
+          viewBox="0 0 16 16">
+          <path
+            d="M6 1v3H1V1h5zM1 0a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1zm14 12v3h-5v-3h5zm-5-1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5zM6 8v7H1V8h5zM1 7a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H1zm14-6v7h-5V1h5zm-5-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1h-5z" />
+        </svg> </button>
+    </div>
+  </div>
+
+  <div class="container-fluid nascondi align-items-center  ">
+    <div class="tutto mt-3 carousel1">
+      <span class="text-light font-weight-bold  mb-2 mt-4">Treading Now</span>
+      <div id="carouselExampleControlsTreading" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row flex-nowrap no-gutters ">
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/5.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/1.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/17.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/3.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/4.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/7.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="row flex-nowrap no-gutters  ">
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/5.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/1.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/17.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/3.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/4.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/7.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleControlsTreading"
+          data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleControlsTreading"
+          data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+    </div>
+
+
+    <div class="tutto mt-5 carousel2">
+      <span class="text-light font-weight-bold  mb-2 mt-4">Watch It Again</span>
+      <div id="carouselExampleControlsAgain" class="carousel slide mb-0 span-0" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row flex-nowrap no-gutters">
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/5.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/10.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/7.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/3.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/5.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/15.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="row flex-nowrap no-gutters ">
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/15.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/1.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/4.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/14.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/10.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/1.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleControlsAgain"
+          data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleControlsAgain"
+          data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="tutto mt-5 carousel3">
+      <span class="text-light font-weight-bold  mb-2 mt-4">New Release</span>
+      <div id="carouselExampleControlsRelease" class="carousel slide mb-0 span-0" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row flex-nowrap no-gutters">
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark ">
+                  <img src="assets/imgs/movies/7.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/6.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/5.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/11.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/13.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/1.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="row flex-nowrap no-gutters">
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/1.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/8.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/18.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/17.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/15.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/1.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleControlsRelease"
+          data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleControlsRelease"
+          data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="tutto mt-5 carousel4">
+      <span class="text-light font-weight-bold mb-2 mt-4">Raccomended for </span>
+      <div id="carouselExampleControlsAgain1" class="carousel slide mb-0 span-0" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row flex-nowrap no-gutters">
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/5.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/10.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/7.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/3.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/5.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/15.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="row flex-nowrap no-gutters">
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/15.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/1.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/4.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/14.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/10.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class=" card rounded-0 border-dark">
+                  <img src="assets/imgs/movies/1.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleControlsAgain1"
+          data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleControlsAgain1"
+          data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="container-fluid d-flex footer align-items-center mt-5 carousel5">
+      <div class="row">
+        <div class="col-12">
+          <img src="assets/imgs/facebook.svg" class="bg-white " width="30px" alt="">
+          <img src="assets/imgs/twitter.svg" class="bg-white ml-3 " width="30px" alt="">
+          <img src="assets/imgs/youtube.svg" class="bg-white  ml-3" width="30px" alt="">
+          <img src="assets/imgs/instagram.svg" class="bg-white ml-3" width="30px" alt="">
+        </div>
+        <div class="col-3 footer">
+          <span class="text-light">Audio and Subtitles</span>
+          <span class="text-light">Media Center</span>
+          <span class="text-light">Privacy</span>
+          <span class="text-light">Contact US</span>
+        </div>
+        <div class="col-3 footer">
+          <span class="text-light">Audio Description</span>
+          <span class="text-light">Investor Reletions</span>
+          <span class="text-light">Legal Notices</span>
+        </div>
+        <div class="col-3">
+          <span class="text-light footer">Help Center</span>
+          <span class="text-light footer">Jobs</span>
+          <span class="text-light footer">Cookies Preferences</span>
+        </div>
+        <div class="col-3">
+          <span class="text-light footer">Gift Cards</span>
+          <span class="text-light footer">Terms of Use</span>
+          <span class="text-light footer">Corporate Information</span>
+        </div>
+        <div class="col-12 mt-5 footer">
+          <p class="text-light serCode">Service Code</p>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+      -->
+
+
+</body>
+
+</html>
